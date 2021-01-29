@@ -4,6 +4,7 @@ template.innerHTML = `
 <link rel="style" href="styleCard.css" />
 <link href="styleCard.css" rel="stylesheet" type="text/css">  
     <div class="card-container">
+        <span></span>
         <h1></h1>
         <p></p>
         <div class="img">
@@ -30,8 +31,8 @@ class CardFeature extends HTMLElement {
         this.shadowRoot.querySelector('img').src = this.getAttribute('image');
 
         this.shadowRoot.querySelector(
-            '.card-container'
-        ).style.borderTop = `solid ${this.getAttribute('border-color')} 4px`;
+            'span'
+        ).style.border = `solid ${this.getAttribute('border-color')} 2px`;
     }
 }
 
