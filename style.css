@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    color: #4d4f62;
+    margin: 85px 32px 78px;
+}
+
+#textTop {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    margin-bottom: 1px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 76px;
+}
